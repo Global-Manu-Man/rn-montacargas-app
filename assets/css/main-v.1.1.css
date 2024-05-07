@@ -1,0 +1,354 @@
+/* Highlight Color */
+::selection { color: #11162b; background: #f7cd56; }
+::-moz-selection { color: #11162b; background: #f7cd56; }
+.form-control:focus {
+    border-color: #f0d923;
+}
+body {
+    /* max-width: 1536px; */
+    margin: auto;
+    background-color: white;
+    outline: 3px solid #ff67660a;
+    outline-width: 3px;
+    outline-offset: 0px;
+    background: #f4f4f4;
+    font-family: 'Inter', sans-serif;
+}
+ul, ol {list-style: none}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Inter', sans-serif;
+}
+.nav-mainmenu-a {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    padding: 0 12px;
+    border-top: 2px solid transparent;
+}
+.btn-whatsapp {
+    display: block;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    position: fixed;
+    right: 12px;
+    bottom: 14px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999;
+}
+a:hover {
+    color: #fed11d;
+}
+.primary-hover a:hover {
+    color: #fed11d !important;
+}
+.scrollbar-firefox {
+    scrollbar-color: #f7f8f9 transparent;
+    scrollbar-width: thin;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #11162b;
+    background-color: #f7cd56;
+    border-color: #f7cd56;
+}
+.btn-primary {
+    font-weight: 600;font-size: 14px;
+    color: #11162b;
+    background-color: #ffc928;
+    border-color: #ffc928;
+}
+.btn-primary:hover {
+    color: #11162b;
+    background-color: #dfb022;
+    border-color: #dfb022;
+}
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0 rgba(199, 179, 103, 0.5);
+}
+
+
+/* ---------------------------------------------------------------------
+ * HEADER - LG-XL
+ * ------------------------------------------------------------------- */
+#--header-lg {
+    background-color: rgb(0, 0, 0);background-position: 0% 0%, 0% 0%, 0% 0%;background-position-y: 0%, 0%, 0%;background-attachment: scroll, scroll, scroll;background-image: linear-gradient(148.8deg, rgba(126, 126, 126, 0.8) 20.02%, rgba(17, 18, 18, 0.8) 82.31%), url('http://localhost/host/clientes/ronamontacargas.com/assets/img/0e9c70b0.png'), none;background-origin: padding-box, padding-box, padding-box;background-clip: border-box, border-box, border-box;background-blend-mode: overlay, normal, normal;background-repeat: no-repeat;background-size: cover;background-position-y: bottom;border-top: 3px solid #ffc928;
+}
+#--header-lg .mdi {
+    font-size: 18px;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: #fed11d;
+}
+header {
+    height: 60px;
+}
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+/* ---------------------------------------------------------------------
+ * HEADER MOBILE - XS-MD
+ * ------------------------------------------------------------------- */
+#--header-xs .navbar-expand-lg {
+    background: #080b16e8;height: 50px;
+    background: #080b1640;
+}
+@media (max-width: 991.98px){
+    .navbar-collapse {background: #0a0c16;}
+    .navbar-nav .nav-item:hover {background: #6d5d1f;}
+    .navbar-nav .nav-item:hover a {color: #eec82d;}
+}
+
+/* ---------------------------------------------------------------------
+ * TOP
+ * ------------------------------------------------------------------- */
+#--top {
+    position: relative;background-size: cover;
+}
+#--top .--layer {
+    height: 100%;position: absolute;width: 100%;background: #070713bf;
+}
+#--top .--img-logo {
+    height: 180px;
+    display: block;
+    margin: auto;
+}
+#--top .btn-primary {
+    padding: 10px 22px 11px;
+}
+#--top .--p-1 {
+  color: #f4f4f4;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+  width: 100%;
+  max-width: 572px;
+}
+
+.white-form {width: auto;padding: 50px 35px;border: 2px solid #11162b;background: #ffffff;}
+.white-form .p-quiero-que-me-contacten {color: #11162b;font-weight: 700;font-size: 28px;line-height: 32px;text-align: center;}
+.white-form label {color: #11162b;font-weight: 500;font-size: 13px;padding-left: 0.3rem;}
+.white-form input, .white-form textarea {border-top: none;border-left: none;border-right: none;border-radius: 0;padding: 0.3rem 0.3rem 0.5rem 0.3rem;font-size: 16px;}
+.white-form textarea {height: 72px;}
+.white-form .p-aceptar-politicas {color: #000;text-align: center;font-size: 13px;font-weight: 500;line-height: 17px;}
+.white-form .--btn-dark {background: #11162b;font-weight: 600;font-size: 14px;padding: 0.65rem 2rem;border-radius: 5px;color: #fff;}
+
+#--top-marcas {
+    background: #ffc928;
+}
+#--top-marcas img {
+    filter: invert(1);
+}
+
+/* ---------------------------------------------------------------------
+ * Visión y misión
+ * ------------------------------------------------------------------- */
+#vision-y-mision {
+    background: #171719;
+}
+#vision-y-mision h2 {
+    color: #E6E6E6;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    text-align:justify ;
+}
+#vision-y-mision .--p-1 {
+    max-width: 480px;font-size: 14px;line-height: 1.6;color: #d9d9d9;
+}
+#vision-y-mision .---card-1 {
+    background: #212121;border: none;
+}
+#vision-y-mision .---card-1 .card-body {
+    padding: 2rem 2rem;
+}
+#vision-y-mision .---card-1 .card-body h4 {
+    font-size: 24px;color: #e6e6e6;font-family: 'Merriweather', serif;font-weight: 600;
+}
+#vision-y-mision .---card-1 .card-body p {
+    font-size: 16px;line-height: 1.5;color: #e6e6e6;   
+}
+#vision-y-mision .---card-2 {
+    border: none;background: #ffc928;
+}
+#vision-y-mision .---card-2 .card-body {
+    padding: 2rem 2rem;
+}
+#vision-y-mision .---card-2 .card-body h4 {
+    font-size: 24px;color: #181818;font-family: 'Merriweather', serif;font-weight: 600;
+}
+#vision-y-mision .---card-2 .card-body p {
+    font-size: 16px;line-height: 1.5;color: #161616;
+    text-align: justify;
+}
+
+/* ---------------------------------------------------------------------
+ * Nuestros valores
+ * ------------------------------------------------------------------- */
+#nuestros-valores {
+    background: #19191a;
+    background-color: rgb(47, 47, 47);
+    background-image: linear-gradient(148.8deg, rgba(17, 16, 12, 0.8) 20.02%, rgba(18, 18, 17, 0.8) 82.31%), url('http://localhost/host/clientes/ronamontacargas.com/assets/img/0e9c70b0.png'), none;
+    background-size: cover;
+    background-position-y: bottom;
+    border-top: 3px solid #ffc928;
+}
+#nuestros-valores h2 {
+    font-weight: 700;
+    color: #ffc928;
+    font-size: 32px;
+}
+#nuestros-valores .--p-1 {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #b5b5b5;
+}
+#nuestros-valores .card {
+    background: #503f0f2e;border: none;
+}
+#nuestros-valores .card .card-body {
+    padding: 2rem 2rem;
+}
+#nuestros-valores .card .card-body h3 {
+    font-size: 26px;font-weight: 700;color: #ffc928;
+}
+#nuestros-valores .card .card-body p {
+    font-weight: 400;font-size: 17px;line-height: 1.5;color: #b5b5b5;
+    text-align: justify;
+}
+
+/* ---------------------------------------------------------------------
+ * Nuestros valores
+ * ------------------------------------------------------------------- */
+#que-hacemos {
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(148.8deg, rgba(12, 12, 17, 0.8) 20.02%, rgba(17, 18, 18, 0.8) 82.31%), url('http://localhost/host/clientes/ronamontacargas.com/assets/img/0e9c70b0.png'), none;
+    background-size: cover;
+    background-position-y: bottom;
+    border-top: 3px solid #ffc928;
+}
+#que-hacemos h2 {
+  font-weight: 700;
+  color: #ffc928;
+  font-size: 32px;
+}
+#que-hacemos p {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #b5b5b5;
+}
+#que-hacemos .---card div {
+    background: #503f0f2e;
+}
+#que-hacemos img {
+    width: 100%;height: 240px;object-fit: cover;
+    border-top: 4px solid #ffc928;
+}
+#que-hacemos .---card h4 {
+    color: #ffc928;
+}
+#que-hacemos .---card .--p {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #b5b5b5;
+}
+
+/* ---------------------------------------------------------------------
+ * Marcas
+ * ------------------------------------------------------------------- */
+#marcas {
+    background: #171719;border-top: 3px solid #ffc928;
+}
+#marcas h2 {
+    font-weight: 700;color: #ffc928;font-size: 32px;
+}
+#marcas .--p-1 {
+    font-size: 20px;color: #b5b5b5;line-height: 1.4;
+}
+
+/* ---------------------------------------------------------------------
+ * Marcas
+ * ------------------------------------------------------------------- */
+#contacto {
+    background: #131315;border-top: 3px solid #ffc928;
+}
+#contacto h2 {
+    font-weight: 700;color: #ffc928;font-size: 32px;
+}
+#contacto .--p-1 {
+    font-weight: 400;font-size: 17px;line-height: 1.5;color: #b5b5b5;
+}
+#contacto .feature-box {
+    color: inherit;
+}
+.list-group-number .list-group-item-action {
+    background: transparent;cursor: default;
+}
+.list-group-number span {
+    background: #252528;
+}
+.icon-primary i::before {
+  color: #ffc928;
+}
+.feature-box .feature-box-title {
+  color: #e0e0e0;
+}
+
+/* ---------------------------------------------------------------------
+ * Formulario mobile
+ * ------------------------------------------------------------------- */
+#formulario-mobile {
+    background: #131315;
+}
+
+/* ---------------------------------------------------------------------
+ * Footer
+ * ------------------------------------------------------------------- */
+footer {
+    background-color: rgb(0, 0, 0);background-position: 0% 0%, 0% 0%, 0% 0%;background-position-y: 0%, 0%, 0%;background-attachment: scroll, scroll, scroll;background-image: linear-gradient(148.8deg, rgba(126, 126, 126, 0.8) 20.02%, rgba(17, 18, 18, 0.8) 82.31%), url('http://localhost/host/clientes/ronamontacargas.com/assets/img/0e9c70b0.png'), none;background-origin: padding-box, padding-box, padding-box;background-clip: border-box, border-box, border-box;background-blend-mode: overlay, normal, normal;background-repeat: no-repeat;background-size: cover;background-position-y: bottom;border-top: 3px solid #ffc928;
+}
+
+.card-body.--pattern-overlay-1-05::before {
+  content: "";
+  background-image: url(http://localhost/host/clientes/ronamontacargas.com/assets/css/pattern-1.png);
+  background-position: center center;
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0.5;
+}
+
+
+@media (min-width: 991px) and (max-width: 1199.9px){
+    .feature-box .feature-box-title {font-size: 20px;}
+}
+@media (min-width: 768px) and (max-width: 991.9px){
+
+}
+@media (max-width: 767.9px){
+    .navbar-brand .navbar-brand-item {height: 26px;}
+    #--top {background-position: center;}
+    #--top .--img-logo {height: 150px;display: block; margin: auto;}
+    #--top .--p-1 {font-size: 18px;color: #e4e4e4;text-align: justify;}
+    #--top .btn-primary {padding: 8px 20px 9px;}
+    #nuestros-valores h2 {font-size: 28px;}
+    #nuestros-valores .--p-1 {font-size: 16px;}
+    #nuestros-valores .card .card-body h3 {font-size: 24px;}
+    #que-hacemos h2 {font-size: 28px;}
+    #que-hacemos p {font-size: 16px;}
+    #marcas h2 {font-size: 28px;}
+    #marcas .--p-1 {font-size: 16px;}
+    .white-form {padding: 44px 28px;}
+    .white-form .p-quiero-que-me-contacten {font-size: 25px;}
+}
